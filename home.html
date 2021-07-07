@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="undefined" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="home1.css" >
+    <title>Home Page</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="content1">
+            <div class="logo">
+                <a href="#">Secret Friend</a>
+            </div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li id="d">Services
+                    <ul>
+                        <li><a href="gadget.php">Electronics Gadgets</a></li>
+                        <li><a href="career.php">Career</a></li>
+                        <li><a href="bussiness.php">Bussiness</a></li>
+                        <li><a href="legal.php">Legal conflicts</a></li>
+                        <li><a href="family.php">Family Dilemma</a></li>
+                        <li><a href="diet.php">Psychology & Diet</a></li>
+                        <li><a href="other.php">Other</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="myprofile.php">My Profile</a></li>
+                <li><a href="myquestion.php">My Question </a></li>
+                <li><a href="logout.php">Log out</a></li>
+
+            </ul>
+            <div id="ic" class="icon menu-btn">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <img src="bg.jpg" id="bg">
+        <img src="moon1.png" id="moon">
+        <img src="mountain (1).png" id="mountain">
+        <img src="road.png" id="road">
+        <h2 id="text">Secret Friend</h2>
+    </section>
+
+    <div class="ss">
+
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <div class="content" id="e">
+                        <h2>01</h2>
+                        <h3>Electronics & Gadgets</h3>
+                        <p>Ask your all problems of Gadget here only.</p>
+                        <a href="gadget.php">Ask your Question</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <div class="content" id="f">
+                        <h2>02</h2>
+                        <h3>Career</h3>
+                        <p>Know your Career from great Career Counsellors</p>
+                        <a href="career.php">Ask your Question</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>03</h2>
+                        <h3>Bussiness</h3>
+                        <p>Solve all your Business  disputes from our great consultants</p>
+                        <a href="bussiness.php">Ask your Question</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>04</h2>
+                        <h3>Legal conflicts</h3>
+                        <p>Solve your legal conflict from our experienced Legal Advisors</p>
+                        <a href="legal.php">Ask your Question</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>05</h2>
+                        <h3>Family Dilemma</h3>
+                        <p>Get out of your family dilemma with help of our family advisor</p>
+                        <a href="family.php">Ask your Question</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>06</h2>
+                        <h3>Psychology & Diet</h3>
+                        <p>Win your battle with help of renowed Psychologist & Dietician</p>
+                        <a href="diet.php">Ask your Question</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>07</h2>
+                        <h3>Other</h3>
+                        <p>Any question not matching with 1st six options can be asked here</p>
+                        <a href="other.php">Ask your Question</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="logo2">
+            <img src="logo1.png" class="i1">
+            <h2>Secret Friend</h2>
+        </div>
+        <div class="button">
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="last">
+            <p>Created by team | <i class="fa fa-copyright" aria-hidden="true"></i> 2020 All rights reserved</p>
+            <p>Privacy Policy</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+            navbar.classList.add("show");
+            menuBtn.classList.add("hide");
+            body.classList.add("disabled");
+        }
+        cancelBtn.onclick = () => {
+            body.classList.remove("disabled");
+            navbar.classList.remove("show");
+            menuBtn.classList.remove("hide");
+        }
+        window.onscroll = () => {
+            this.scrollY > 200 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+
+        window.addEventListener('scroll',function(){
+            var value = window.scrollY;
+
+            bg.style.top = value + 0.5 + 'px';
+            moon.style.left = -value + 0.5 + 'px';
+            mountain.style.top = -value + 0.15 + 'px';
+            road.style.bottom = -value + 0.15 + 'px';
+            text.style.top = value + 1 +'px';
+        })
+    </script>
+</body>
+</html>

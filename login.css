@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family:sans-serif;
+}
+
+body{
+    background-image: url(back2.jpeg);
+    position: relative;
+    
+    width: 100vw;
+    height: 100%;
+    
+    
+}
+.box .h h1{
+    color: rgb(63, 6, 156);
+    font-size: 30px;
+    margin-top: 25px;
+    margin-right: 63px;
+    font-family: cursive;
+}
+.box{
+    width: 700px;
+    height: 440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url(PicsArt_05-23-09.33.13.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    text-align: right;
+    border-radius: 50px;
+    margin-top: 5%;
+
+}
+.info{
+    margin-top: 40px;
+}
+.info input[type = "text"],.info input[type = "password"]{
+    border: 0;
+     /*background: none;*/ 
+    display: block;
+    margin: 30px 0;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid rgb(66, 66, 238);    
+    padding: 8px 5px;
+    width: 220px;
+    margin-left: 440px;
+    outline:none;
+    color: black;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+.info input[type = "text"]:focus,.info input[type = "password"]:focus{
+    width: 245px;
+    margin-left: 431.5px;
+    color: black;
+    border-color:rgb(5, 83, 5);
+}
+.sub{
+    margin-top: 40px;
+}
+.sub input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-family: cursive;
+    font-size: 22px;
+    border: 2px solid rgb(226, 17, 52);    
+    padding: 8px 5px;
+    width: 100px;
+    outline:none;
+    margin-left: 500px;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.sub input[type = "submit"]:focus{
+    width: 150px;
+    margin-left: 475px;
+    color: white;
+    background: rgb(216, 152, 187);
+}
+.new{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.new strong{
+    color: rgb(11, 11, 12);
+}
+.new a{
+    color: red;
+}
+
+.logo{
+    margin-top: 10%; 
+    margin-right: 80%;
+    
+  }
+.logo1{
+    margin-top: -22%; 
+    margin-left: 78%;
+  }
+@media only screen and (max-width:720px){
+    .box .h h1{
+        font-size: 23px;
+        margin-top: 12px;
+        margin-right: 36px;
+    }
+    .box{
+        width: 470px;
+        height: 300px;
+        background-size: 470px;
+        border-radius: 30px;
+    }
+    .info{
+        margin-top: 30px;
+    }
+    .info input[type = "text"],.info input[type = "password"]{
+        margin: 20px 0;
+        font-size: 13px;
+        padding: 5px 3px;
+        width: 156px;
+        margin-left: 292px;
+        border-radius: 20px;
+    }
+    .info input[type = "text"]:focus,.info input[type = "password"]:focus{
+        width: 176px;
+        margin-left: 282px;
+    }
+    .sub{
+        margin-top: 30px;
+    }
+    .sub input[type = "submit"]{
+        margin: 20px auto;
+        font-size: 13px;  
+        padding: 5px 3px;
+        width: 80px;
+        margin-left: 335px;
+        border-radius: 20px;
+    }
+    .sub input[type = "submit"]:focus{
+        width: 110px;
+        margin-left: 320px;
+        color: white;
+        background: rgb(216, 152, 187);
+    }
+    .new{
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+    .new strong{
+        color: blue;
+        font-size: 12px;
+    }
+    .new a{
+        font-size: 12px;
+        color: red;
+    }
+}
+@media only screen and (max-width:480px){
+    .box .h h1{
+        color: rgb(63, 6, 156);
+        font-size: 20px;
+        margin-top: 85px;
+        margin-right: 98px;
+    }
+    .box{
+        width: 300px;
+        height: 430px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: url(PicsArt_05-24-04.06.27.jpg );
+        /* background-repeat: no-repeat; */
+        background-size: 300px;
+        text-align: right;
+        border-radius: 30px;
+    }
+    .info{
+        margin-top: 30px;
+    }
+    .info input[type = "text"],.info input[type = "password"]{
+        margin: 10px 0;
+        font-size: 14px;   
+        padding: 6px 3px;
+        width: 200px;
+        margin-left: 47px;
+        border-radius: 20px;
+    }
+    .info input[type = "text"]:focus,.info input[type = "password"]:focus{
+        width: 230px;
+        margin-left: 32px;
+        color: white;
+        border-color:rgb(5, 83, 5);
+    }
+    .sub{
+        margin-top: 30px;
+    }
+    .sub input[type = "submit"]{
+        margin: 20px auto;
+        font-size: 14px; 
+        padding: 5px 2px;
+        width: 90px;
+        margin-left: 105px;
+        border-radius: 20px;
+    }
+    .sub input[type = "submit"]:focus{
+        width: 110px;
+        margin-left: 95px;
+    }
+    .new{
+        margin-top: 110px;
+        margin-right: 74px;
+    }
+    .new strong{
+        color: blue;
+    }
+    .new a{
+        color: red;
+    }
+
+}
+@media only screen and (max-width:320px){
+    .box .h h1{
+        color: rgb(63, 6, 156);
+        font-size: 13px;
+        margin-top: 55px;
+        margin-right: 53px;
+    }
+    .box{
+        width: 170px;
+        height: 300px;
+        background: url(PicsArt_05-24-04.06.27.jpg);
+        background-size: 170px;
+    }
+    .info{
+        margin-top: 15px;
+    }
+    .info input[type = "text"],.info input[type = "password"]{
+        margin: 18px 0;
+        font-size: 8.5px;   
+        padding: 4px 2px;
+        width: 130px;
+        margin-left: 18px;
+        border-radius: 18px;
+    }
+    .info input[type = "text"]:focus,.info input[type = "password"]:focus{
+        width: 150px;
+        margin-left: 8px;
+        color: white;
+        border-color:rgb(5, 83, 5);
+    }
+    .sub{
+        margin-top: 70px;
+    }
+    .sub input[type = "submit"]{
+        margin: 18px auto;
+        font-size: 8.5px; 
+        padding: 3px 2px;
+        width: 70px;
+        margin-left: 50px;
+        border-radius: 20px;
+    }
+    .sub input[type = "submit"]:focus{
+        width: 80px;
+        margin-left: 45px;
+    }
+    .new{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .new strong{
+        font-size: 9px;
+        color: blue;
+    }
+    .new a{
+        font-size: 9px;
+        color: red;
+    }
+}
+@media only screen and (min-width:720px){
+
+    @media only screen and (max-height:440px){
+
+        .box{
+            top: 65%;
+        }
+
+    }
+
+}
+@media only screen and (min-width:720px){
+
+    @media only screen and (max-height:345px){
+
+        .box .h h1{
+            color: rgb(63, 6, 156);
+            font-size: 23px;
+            margin-top: 8px;
+        }
+        .box{
+            width: 600px;
+            height: 300px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background: url(PicsArt_05-23-09.33.13.jpg);
+            background-repeat: no-repeat;
+            background-size: 600px;
+            text-align: right;
+            border-radius: 30px;
+        }
+        .info{
+            margin-top: 30px;
+        }
+        .info input[type = "text"],.info input[type = "password"]{
+            margin: 20px 0;
+            font-size: 14px;   
+            padding: 4px 2px;
+            width: 190px;
+            margin-left: 380px;
+        }
+        .info input[type = "text"]:focus,.info input[type = "password"]:focus{
+            width: 220px;
+            margin-left: 365px;
+        }
+        .sub{
+            margin-top: 30px;
+        }
+        .sub input[type = "submit"]{
+            margin: 20px auto;
+            font-size: 14px;
+            border: 2px solid rgb(226, 17, 52);    
+            padding: 4px 2px;
+            width: 80px;
+            margin-left: 435px;
+            border-radius: 24px;
+        }
+        .sub input[type = "submit"]:focus{
+            width: 110px;
+            margin-left: 420px;
+        }
+        .new{
+            margin-top: 50px;
+            font-size: 15px;
+            margin-right: 22px;
+        }
+        .new strong{
+            color: blue;
+        }
+        .new a{
+            color: red;
+        }
+
+    }
+
+}
+@media only screen and (min-width:720px){
+
+    @media only screen and (max-height:310px){
+
+        .box{
+            top: 75%;
+        }
+
+    }
+
+}
+@media only screen and (max-width:720px){
+
+    @media only screen and (max-height:300px){
+
+        .box{
+            top: 75%;
+        }
+
+    }
+
+}
+@media only screen and (max-width:720px){
+
+    @media only screen and (max-height:200px){
+
+        .box{
+            top: 80%;
+        }
+
+    }
+
+}
+@media only screen and (max-width:480px){
+
+    @media only screen and (max-height:440px){
+
+        .box{
+            top: 60%;
+        }
+
+    }
+
+}
+@media only screen and (max-width:480px){
+
+    @media only screen and (max-height:340px){
+
+        .box{
+            top: 70%;
+        }
+
+    }
+
+}
+@media only screen and (max-width:480px){
+
+    @media only screen and (max-height:300px){
+
+        .box{
+            top: 75%;
+        }
+
+    }
+
+}
+@media only screen and (max-width:480px){
+
+    @media only screen and (max-height:290px){
+
+        .box{
+            top: 80%;
+        }
+
+    }
+
+}

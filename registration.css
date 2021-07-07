@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.container{
+    width: 500px;
+    height: 710px;
+    position: relative;
+    margin-top: 25%;
+    margin-bottom: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:black;
+    opacity:0.7;
+    background-repeat: no-repeat;
+    text-align:left;
+    border-radius: 20px;
+    
+}
+.container form{
+    margin-top:10px;
+    margin-left:20px;
+}
+.container h3{
+    color: lightblue;
+    margin-top: 10px;
+    font-size: 23px;
+    margin-left: 128px;
+}
+
+.container h3:after{
+    content: "";
+    display: block;
+    width:66%;
+    padding-top: 7px;
+    border-bottom: 4px solid lightgreen;
+}
+
+.form-group{
+    overflow:hidden;
+}
+
+.form-control input{
+    position:relative;
+    width: 450px;
+    padding:3px;
+    height:23px;
+    margin-bottom: 8px;
+    margin-top:10px;
+    margin-right: 5px;
+    border: 0px;
+    outline:none;
+    background-color: white;
+    opacity:0.7;
+    -webkit-box-shadow:none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid rgb(84, 228, 79);
+    font-weight: bold;
+    overflow:hidden;
+    color: rgb(0,0,0);
+    border-radius: 15px;
+
+}
+
+.form-control input:hover{
+    background-color: white;
+}
+
+.form-group label{
+    position:relative;
+    color:lightblue;
+    font-size:18px;
+    height:40px;
+    margin-top:10px;
+}
+
+.form1-group label{
+    position:relative;
+    color:lightblue;
+    font-size:20px;
+    height:40px;
+    margin-top:10px;
+}
+
+
+.form{
+    background-color: white;
+    opacity:0.7;
+    height:25px;
+    padding:3px;
+    width:80%;
+    color: black;
+}
+
+body{
+    background: url(Consultancy-Quark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.btn{
+
+    margin-top: 7px;
+    height:35px;
+    width:65px;
+   margin-left: 145px;
+    background-color:navy;
+    color: white;
+    border-radius: 10px;
+    border:none;
+    
+}
+.btn[type=reset]:hover{
+    opacity:0.7;
+    margin-top: 8px;
+}
+
+.btn[type=submit]:hover{
+    opacity:0.7;
+    margin-top: 8px;
+}
+
+.btn[type=reset]{
+    margin-left:20px;
+}
+
+.php{
+    color: white;
+    margin: 10px 40px;
+}
+
+@media only screen and (max-width:560px){
+    
+    .container{
+        width: 330px;
+        height: 480px;
+    }
+    .container form{
+        margin-top:5px;
+        margin-left:10px;
+    }
+    .container h3{
+        margin-top: 5px;
+        font-size: 17px;
+        margin-left: 73px;
+    }
+    
+    .container h3:after{
+        width:70%;
+        padding-top: 5px;
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    .form-control input{
+        width: 280px;
+        padding:2px;
+        height:17px;
+        margin-bottom: 5px;
+        margin-top:5px;
+        margin-right: 5px;
+        opacity:0.7;
+        border-radius: 10px;
+    
+    }
+    
+    .form-group label{
+        font-size:13px;
+        height:5px;
+        margin-top:5px;
+    }
+    
+    .form1-group label{
+        font-size:13px;
+        height:5px;
+        margin-top:5px;
+    }
+    
+    body{
+        background: url(Consultancy-Quark.jpg) no-repeat right center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size:cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .btn{
+        font-size: 10px;
+        margin-top: 5px;
+        height:25px;
+        width:45px;
+        margin-left: 100px;
+        background-color:navy;
+        color: white;
+        border-radius: 8px;
+        border:none;
+        
+    }
+    .btn[type=reset]:hover{
+        opacity:0.7;
+        margin-top: 5px;
+    }
+    
+    .btn[type=submit]:hover{
+        opacity:0.7;
+        margin-top: 7px;
+    }
+    
+    .btn[type=reset]{
+        margin-left:20px;
+    }
+    
+    .php{
+        color: white;
+        margin: 10px 40px;
+    }
+
+}
+
+@media only screen and (max-width:350px){
+    
+    .container{
+        width: 200px;
+        height: 380px;
+    }
+    .container form{
+        margin-top:5px;
+        margin-left:10px;
+    }
+    .container h3{
+        margin-top: 2.5px;
+        font-size: 12px;
+        margin-left: 35px;
+    }
+    
+    .container h3:after{
+        margin-top: 1px;
+        width:77%;
+    }
+    
+    .form-control input{
+        width: 160px;
+        padding:0.5px;
+        height:10px;
+        font-size: 10px;
+        margin-bottom: 0.5px;
+        margin-top:0.5px;
+        margin-right: 10px;
+        opacity:0.7;
+        border-radius: 5px;
+    
+    }
+    
+    .form-group label{
+        font-size:10px;
+        height:5px;
+        margin-top:2px;
+    }
+    
+    .form1-group label{
+        font-size:10px;
+        height:3px;
+        margin-top:1px;
+    }
+    
+    body{
+        background: url(Consultancy-Quark.jpg) no-repeat right center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size:cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+    }
+    
+    .btn{
+        font-size: 8px;
+        margin-top: 10px;
+        height:20px;
+        width:30px;
+        margin-left: 48px;
+        background-color:navy;
+        color: white;
+        border-radius: 5px;
+        border:none;
+        
+    }
+    .btn[type=reset]:hover{
+        opacity:0.7;
+        margin-top: 9px;
+    }
+    
+    .btn[type=submit]:hover{
+        opacity:0.7;
+        margin-top: 9px;
+    }
+    
+    .btn[type=reset]{
+        margin-left:20px;
+    }
+
+}
+
+@media only screen and (min-width:560px){
+
+    @media only screen and (max-height:630px){
+
+        .container{
+            top: 70%;
+        }
+
+    }
+    @media only screen and (max-height:460px){
+
+        .container{
+            top: 80%;
+        }
+
+    }
+    @media only screen and (max-height:400px){
+
+        .container{
+            top: 90%;
+        }
+
+    }
+    @media only screen and (max-height:360px){
+
+        .container{
+            top: 100%;
+        }
+
+    }
+    @media only screen and (max-height:320px){
+
+        .container{
+            top: 120%;
+        }
+
+    }
+    @media only screen and (max-height:270px){
+
+        .container{
+            top: 140%;
+        }
+
+    }
+    @media only screen and (max-height:230px){
+
+        .container{
+            top: 160%;
+        }
+
+    }
+    @media only screen and (max-height:200px){
+
+        .container{
+            top: 180%;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width:560px){
+
+    @media only screen and (max-height:630px){
+
+        .container{
+            top: 70%;
+        }
+
+    }
+    @media only screen and (max-height:460px){
+
+        .container{
+            top: 80%;
+        }
+
+    }
+    @media only screen and (max-height:400px){
+
+        .container{
+            top: 90%;
+        }
+
+    }
+    @media only screen and (max-height:360px){
+
+        .container{
+            top: 100%;
+        }
+
+    }
+    @media only screen and (max-height:320px){
+
+        .container{
+            top: 120%;
+        }
+
+    }
+    @media only screen and (max-height:270px){
+
+        .container{
+            top: 140%;
+        }
+
+    }
+    @media only screen and (max-height:230px){
+
+        .container{
+            top: 160%;
+        }
+
+    }
+    @media only screen and (max-height:200px){
+
+        .container{
+            top: 180%;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width:350px){
+
+    @media only screen and (max-height:630px){
+
+        .container{
+            top: 50%;
+        }
+
+    }
+    @media only screen and (max-height:460px){
+
+        .container{
+            top: 60%;
+        }
+
+    }
+    @media only screen and (max-height:400px){
+
+        .container{
+            top: 60%;
+        }
+
+    }
+    @media only screen and (max-height:360px){
+
+        .container{
+            top: 60%;
+        }
+
+    }
+    @media only screen and (max-height:320px){
+
+        .container{
+            top: 70%;
+        }
+
+    }
+    @media only screen and (max-height:270px){
+
+        .container{
+            top: 80%;
+        }
+
+    }
+    @media only screen and (max-height:240px){
+
+        .container{
+            top: 90%;
+        }
+
+    }
+    @media only screen and (max-height:215px){
+
+        .container{
+            top: 100%;
+        }
+
+    }
+    @media only screen and (max-height:190px){
+
+        .container{
+            top: 110%;
+        }
+
+    }
+    @media only screen and (max-height:175px){
+
+        .container{
+            top: 130%;
+        }
+
+    }
+    @media only screen and (max-height:148px){
+
+        .container{
+            top: 140%;
+        }
+
+    }
+    @media only screen and (max-height:136px){
+
+        .container{
+            top: 160%;
+        }
+
+    }
+    @media only screen and (max-height:120px){
+
+        .container{
+            top: 180%;
+        }
+
+    }
+    @media only screen and (max-height:105px){
+
+        .container{
+            top: 195%;
+        }
+
+    }
+
+}
